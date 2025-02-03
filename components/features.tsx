@@ -37,7 +37,7 @@ export function Features() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-base text-[#66D9FF] font-semibold tracking-wide uppercase">Features</h2>
+          <h2 className="text-base text-[#08AFF1] font-semibold tracking-wide uppercase">Features</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Smart Wealth Management
           </p>
@@ -57,7 +57,7 @@ export function Features() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-[#9EFF00] text-white">
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-[#AACF45] text-white">
                   <feature.icon className="h-6 w-6" />
                 </div>
                 <div className="ml-16">

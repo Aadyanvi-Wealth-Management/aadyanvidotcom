@@ -16,13 +16,14 @@ export function Hero() {
           >
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
               <span className="block">Transform Your</span>
-              <span className="block text-[#66D9FF]">Financial Future</span>
+              <span className="block text-[#08AFF1]">Financial Future</span>
             </h1>
             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
               Expert wealth management solutions tailored to your goals. Join thousands of successful investors who trust Aadyanvi Wealth for their financial journey.
             </p>
             <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left">
-              <button className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#9EFF00] hover:bg-[#66D9FF] transition-colors duration-300">
+              {/*ml-[-43px] */}
+              <button className=" inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#AACF45] hover:bg-[#08AFF1] transition-colors duration-300">
                 Start Investing Now
               </button>
             </div>
@@ -34,7 +35,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-              <div className="relative block w-full bg-gradient-to-r from-[#9EFF00] to-[#66D9FF] rounded-lg overflow-hidden">
+              <div className="relative block w-full bg-gradient-to-r from-[#AACF45] to-[#08AFF1] rounded-lg overflow-hidden">
                 <div className="relative h-64 sm:h-72 bg-white/10 backdrop-blur-lg p-6">
                   <div className="h-full flex flex-col justify-between">
                     <div className="flex justify-between items-start">

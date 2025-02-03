@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export function CTA() {
   return (
-    <div className="bg-[#9EFF00]">
+    <div className="bg-[#AACF45]">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -28,12 +28,12 @@ export function CTA() {
           transition={{ duration: 0.5 }}
         >
           <div className="inline-flex rounded-md shadow">
-            <button className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-[#9EFF00] bg-white hover:bg-gray-50">
+            <button className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-[#AACF45] bg-white hover:bg-gray-50">
               Get started
             </button>
           </div>
           <div className="ml-3 inline-flex rounded-md shadow">
-            <button className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#66D9FF] hover:bg-[#50c0e6]">
+            <button className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#08AFF1] hover:bg-[#50c0e6]">
               Learn more
             </button>
           </div>

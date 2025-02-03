@@ -23,26 +23,26 @@ export function Navbar() {
             />
           </div>
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="#features" className="text-gray-700 hover:text-[#9EFF00] transition-colors">
+            <Link href="#features" className="text-gray-700 hover:text-[#AACF45] transition-colors">
               Features
             </Link>
-            <Link href="#about" className="text-gray-700 hover:text-[#9EFF00] transition-colors">
+            <Link href="#about" className="text-gray-700 hover:text-[#AACF45] transition-colors">
               About
             </Link>
-            <Link href="#testimonials" className="text-gray-700 hover:text-[#9EFF00] transition-colors">
+            <Link href="#testimonials" className="text-gray-700 hover:text-[#AACF45] transition-colors">
               Testimonials
             </Link>
-            <Link href="#contact" className="text-gray-700 hover:text-[#9EFF00] transition-colors">
+            <Link href="#contact" className="text-gray-700 hover:text-[#AACF45] transition-colors">
               Contact
             </Link>
-            <button className="bg-[#66D9FF] text-white px-6 py-2 rounded-lg hover:bg-[#9EFF00] transition-colors">
+            <button className="bg-[#08AFF1] text-white px-6 py-2 rounded-lg hover:bg-[#AACF45] transition-colors">
               Get Started
             </button>
           </div>
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-[#9EFF00] transition-colors"
+              className="text-gray-700 hover:text-[#AACF45] transition-colors"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -57,19 +57,19 @@ export function Navbar() {
           className="md:hidden bg-white border-b border-gray-100"
         >
           <div className="px-2 pt-2 pb-3 space-y-1">
-            <Link href="#features" className="block px-3 py-2 text-gray-700 hover:text-[#9EFF00] transition-colors">
+            <Link href="#features" className="block px-3 py-2 text-gray-700 hover:text-[#AACF45] transition-colors">
               Features
             </Link>
-            <Link href="#about" className="block px-3 py-2 text-gray-700 hover:text-[#9EFF00] transition-colors">
+            <Link href="#about" className="block px-3 py-2 text-gray-700 hover:text-[#AACF45] transition-colors">
               About
             </Link>
-            <Link href="#testimonials" className="block px-3 py-2 text-gray-700 hover:text-[#9EFF00] transition-colors">
+            <Link href="#testimonials" className="block px-3 py-2 text-gray-700 hover:text-[#AACF45] transition-colors">
               Testimonials
             </Link>
-            <Link href="#contact" className="block px-3 py-2 text-gray-700 hover:text-[#9EFF00] transition-colors">
+            <Link href="#contact" className="block px-3 py-2 text-gray-700 hover:text-[#AACF45] transition-colors">
               Contact
             </Link>
-            <button className="w-full text-center bg-[#66D9FF] text-white px-6 py-2 rounded-lg hover:bg-[#9EFF00] transition-colors">
+            <button className="w-full text-center bg-[#08AFF1] text-white px-6 py-2 rounded-lg hover:bg-[#AACF45] transition-colors">
               Get Started
             </button>
           </div>

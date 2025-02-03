@@ -6,12 +6,13 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Clock, TrendingUp, Briefcase, PieChart } from 'lucide-react'
 import Image from "next/image"
 import Link from "next/link"
+import Image1 from "../public/blog1.jpg"
 
 const blogs = [
   {
     title: "Understanding Market Volatility: A Guide for Investors",
     description: "Learn how market volatility affects your investments and strategies to navigate through turbulent times.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/blog1.jpg",
     date: "March 15, 2024",
     readTime: "5 min read",
     category: "Market Analysis",
@@ -77,7 +78,7 @@ export function BlogSection() {
                   </div>
                 </CardHeader>
                 <CardContent className="flex-1 p-6">
-                  <div className="flex items-center gap-2 text-sm text-[#66D9FF] mb-3">
+                  <div className="flex items-center gap-2 text-sm text-[#08AFF1] mb-3">
                     <blog.icon className="h-4 w-4" />
                     {blog.category}
                   </div>
@@ -96,7 +97,7 @@ export function BlogSection() {
                 <CardFooter className="p-6 pt-0">
                   <Button
                     variant="ghost"
-                    className="w-full text-[#66D9FF] hover:text-[#9EFF00] hover:bg-transparent transition-colors duration-300"
+                    className="w-full text-[#08AFF1] hover:text-[#AACF45] hover:bg-transparent transition-colors duration-300"
                   >
                     Read More
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -116,7 +117,7 @@ export function BlogSection() {
         >
           <Button
             variant="outline"
-            className="text-[#66D9FF] border-[#66D9FF] hover:bg-[#66D9FF] hover:text-white"
+            className="text-[#08AFF1] border-[#08AFF1] hover:bg-[#08AFF1] hover:text-white"
           >
             View All Articles
             <ArrowRight className="ml-2 h-4 w-4" />

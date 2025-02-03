@@ -24,7 +24,7 @@ export function Footer() {
                 placeholder="EMAIL ADDRESS" 
                 className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
               />
-              <Button className="bg-[#9EFF00] text-gray-900 hover:bg-[#66D9FF] hover:text-white transition-colors">
+              <Button className="bg-[#AACF45] text-gray-900 hover:bg-[#08AFF1] hover:text-white transition-colors">
                 SIGN UP
               </Button>
             </div>
@@ -36,55 +36,55 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-medium text-white mb-4">Who We Are</h4>
             <ul className="space-y-3">
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">About Us</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Purpose and Values</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Leadership</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Corporate Social Responsibility</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Newsroom</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">About Us</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Purpose and Values</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Leadership</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Corporate Social Responsibility</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Newsroom</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-lg font-medium text-white mb-4">What We Do</h4>
             <ul className="space-y-3">
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Asset Management</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Credit Solutions</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Investment Banking</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Institutional Equities</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Wealth Management</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Asset Management</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Credit Solutions</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Investment Banking</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Institutional Equities</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Wealth Management</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-lg font-medium text-white mb-4">Careers</h4>
             <ul className="space-y-3">
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Life at Aadyanvi</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Students and Graduates</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Experienced Professionals</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Life at Aadyanvi</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Students and Graduates</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Experienced Professionals</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-lg font-medium text-white mb-4">Corporate Disclosures</h4>
             <ul className="space-y-3">
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Regulatory Information</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Offer Documents</Link></li>
-              <li><Link href="#" className="hover:text-[#66D9FF] transition-colors">Track Record</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Regulatory Information</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Offer Documents</Link></li>
+              <li><Link href="#" className="hover:text-[#08AFF1] transition-colors">Track Record</Link></li>
             </ul>
           </div>
 
           <div className="col-span-2 md:col-span-4 lg:col-span-1">
             <h4 className="text-lg font-medium text-white mb-4">Connect With Us</h4>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-[#66D9FF] transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-[#08AFF1] transition-colors">
                 <Twitter className="h-6 w-6" />
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-[#66D9FF] transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-[#08AFF1] transition-colors">
                 <Linkedin className="h-6 w-6" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-[#66D9FF] transition-colors">
+              <Link href="#" className="text-gray-400 hover:text-[#08AFF1] transition-colors">
                 <Youtube className="h-6 w-6" />
                 <span className="sr-only">YouTube</span>
               </Link>
@@ -107,10 +107,10 @@ export function Footer() {
             Copyright © {new Date().getFullYear()} Aadyanvi Wealth. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
-            <Link href="#" className="text-gray-400 hover:text-[#66D9FF] transition-colors">
+            <Link href="#" className="text-gray-400 hover:text-[#08AFF1] transition-colors">
               Terms of use
             </Link>
-            <Link href="#" className="text-gray-400 hover:text-[#66D9FF] transition-colors">
+            <Link href="#" className="text-gray-400 hover:text-[#08AFF1] transition-colors">
               Privacy Policy
             </Link>
           </div>
