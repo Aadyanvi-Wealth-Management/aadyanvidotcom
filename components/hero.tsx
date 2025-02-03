@@ -5,7 +5,7 @@ import { TrendingUp, BarChart2, PieChart } from 'lucide-react'
 
 export function Hero() {
   return (
-    <div className="relative pt-32 pb-16 sm:pt-40 sm:pb-24 lg:pb-32 overflow-hidden">
+    <div className="relative pt-32 pb-16 sm:pt-40 sm:pb-24 lg:pb-32 overflow-hidden bg-gray-200">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <motion.div 

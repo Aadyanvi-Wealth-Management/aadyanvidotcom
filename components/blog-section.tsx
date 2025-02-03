@@ -10,31 +10,34 @@ import Image1 from "../public/blog1.jpg"
 
 const blogs = [
   {
-    title: "Understanding Market Volatility: A Guide for Investors",
-    description: "Learn how market volatility affects your investments and strategies to navigate through turbulent times.",
+    title: "Top Mutual Fund Mistakes to Avoid",
+    description: "Avoid common mutual fund mistakes to maximize returns and minimize risks.",
     image: "/blog1.jpg",
-    date: "March 15, 2024",
+    date: "January 15, 2025",
     readTime: "5 min read",
     category: "Market Analysis",
     icon: TrendingUp,
+    link: "https://1finance.co.in/blog/top-mutual-fund-mistakes-to-avoid/"
   },
   {
-    title: "The Future of Investment Banking in 2024",
+    title: "The Future of Investment Banking in 2025",
     description: "Explore emerging trends and technological innovations shaping the investment banking landscape.",
-    image: "/placeholder.svg?height=200&width=400",
-    date: "March 12, 2024",
+    image: "/blog2.jpg",
+    date: "January 20, 2025",
     readTime: "7 min read",
     category: "Industry Insights",
     icon: Briefcase,
+    link: "https://bostoninstituteofanalytics.org/blog/top-7-trends-shaping-the-future-of-investment-banking-in-2024/"
   },
   {
     title: "Portfolio Diversification Strategies",
     description: "Discover effective ways to diversify your investment portfolio and minimize risk while maximizing returns.",
-    image: "/placeholder.svg?height=200&width=400",
-    date: "March 10, 2024",
+    image: "/blog3.jpeg",
+    date: "February 01, 2025",
     readTime: "6 min read",
     category: "Investment Strategy",
     icon: PieChart,
+    link: "https://www.gripinvest.in/blog/role-of-diversification"
   },
 ]
 
@@ -99,7 +102,7 @@ export function BlogSection() {
                     variant="ghost"
                     className="w-full text-[#08AFF1] hover:text-[#AACF45] hover:bg-transparent transition-colors duration-300"
                   >
-                    Read More
+                    <a href={blog.link} target="blank">Read More</a>
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </CardFooter>

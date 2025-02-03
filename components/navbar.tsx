@@ -14,16 +14,18 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex-shrink-0 flex items-center">
+          <Link href="/">
             <Image
               src="/logo.png"
               alt="Aadyanvi Wealth"
               width={180}
               height={40}
-              className="h-10  w-auto"
+              className="h-10 w-auto cursor-pointer"
             />
+        </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="#features" className="text-gray-700 hover:text-[#AACF45] transition-colors">
+            <Link href="/features" className="text-gray-700 hover:text-[#AACF45] transition-colors">
               Features
             </Link>
             <Link href="#about" className="text-gray-700 hover:text-[#AACF45] transition-colors">
