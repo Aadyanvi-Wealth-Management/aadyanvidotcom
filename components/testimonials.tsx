@@ -56,7 +56,7 @@ export function Testimonials() {
               >
                 <div className="flex-1 p-6">
                   <blockquote className="mt-4 text-lg text-gray-500">
-                    "{testimonial.content}"
+                    {`"${testimonial.content}"`}
                   </blockquote>
                 </div>
                 <div className="px-6 py-4 bg-gray-50">
