@@ -1,31 +1,33 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import Image from "next/image"
+import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    content: "Aadyanvi Wealth has transformed my investment strategy. Their expert guidance helped me achieve my financial goals.",
+    content:
+      "Aadyanvi Wealth has transformed my investment strategy. Their expert guidance helped me achieve my financial goals.",
     author: "Investment Professional",
     role: "Senior Portfolio Manager",
   },
   {
-    content: "The team's dedication to client success and their innovative approach to wealth management is outstanding.",
+    content:
+      "The team's dedication to client success and their innovative approach to wealth management is outstanding.",
     author: "Finance Expert",
     role: "Wealth Advisor",
   },
   {
-    content: "Their market insights and personalized service have made a significant impact on my portfolio performance.",
+    content:
+      "Their market insights and personalized service have made a significant impact on my portfolio performance.",
     author: "Business Leader",
     role: "CEO",
   },
-]
+];
 
 export function Testimonials() {
   return (
     <div className="py-24 bg-white bg-gray-200" id="testimonials">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div 
+        <motion.div
           className="text-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +38,8 @@ export function Testimonials() {
             Trusted by Industry Leaders
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-xl text-gray-500">
-            Discover what our clients say about their experience with Aadyanvi Wealth.
+            Discover what our clients say about their experience with Aadyanvi
+            Wealth.
           </p>
         </motion.div>
 
@@ -57,8 +60,12 @@ export function Testimonials() {
                   </blockquote>
                 </div>
                 <div className="px-6 py-4 bg-gray-50">
-                  <div className="font-medium text-gray-900">{testimonial.author}</div>
-                  <div className="mt-1 text-sm text-gray-500">{testimonial.role}</div>
+                  <div className="font-medium text-gray-900">
+                    {testimonial.author}
+                  </div>
+                  <div className="mt-1 text-sm text-gray-500">
+                    {testimonial.role}
+                  </div>
                 </div>
               </motion.div>
             ))}
@@ -66,6 +73,5 @@ export function Testimonials() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-
