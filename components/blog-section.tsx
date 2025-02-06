@@ -1,45 +1,59 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Clock, TrendingUp, Briefcase, PieChart } from 'lucide-react'
-import Image from "next/image"
-import Link from "next/link"
-import Image1 from "../public/blog1.jpg"
+import { motion } from "framer-motion";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import {
+  ArrowRight,
+  Clock,
+  TrendingUp,
+  Briefcase,
+  PieChart,
+} from "lucide-react";
+import Image from "next/image";
 
 const blogs = [
   {
     title: "Top Mutual Fund Mistakes to Avoid",
-    description: "Avoid common mutual fund mistakes to maximize returns and minimize risks.",
+    description:
+      "Avoid common mutual fund mistakes to maximize returns and minimize risks.",
     image: "/blog1.jpg",
     date: "January 15, 2025",
     readTime: "5 min read",
     category: "Market Analysis",
     icon: TrendingUp,
-    link: "https://1finance.co.in/blog/top-mutual-fund-mistakes-to-avoid/"
+    link: "https://1finance.co.in/blog/top-mutual-fund-mistakes-to-avoid/",
   },
   {
     title: "The Future of Investment Banking in 2025",
-    description: "Explore emerging trends and technological innovations shaping the investment banking landscape.",
+    description:
+      "Explore emerging trends and technological innovations shaping the investment banking landscape.",
     image: "/blog2.jpg",
     date: "January 20, 2025",
     readTime: "7 min read",
     category: "Industry Insights",
     icon: Briefcase,
-    link: "https://bostoninstituteofanalytics.org/blog/top-7-trends-shaping-the-future-of-investment-banking-in-2024/"
+    link: "https://bostoninstituteofanalytics.org/blog/top-7-trends-shaping-the-future-of-investment-banking-in-2024/",
   },
   {
     title: "Portfolio Diversification Strategies",
-    description: "Discover effective ways to diversify your investment portfolio and minimize risk while maximizing returns.",
+    description:
+      "Discover effective ways to diversify your investment portfolio and minimize risk while maximizing returns.",
     image: "/blog3.jpeg",
     date: "February 01, 2025",
     readTime: "6 min read",
     category: "Investment Strategy",
     icon: PieChart,
-    link: "https://www.gripinvest.in/blog/role-of-diversification"
+    link: "https://www.gripinvest.in/blog/role-of-diversification",
   },
-]
+];
 
 export function BlogSection() {
   return (
@@ -85,7 +99,9 @@ export function BlogSection() {
                     <blog.icon className="h-4 w-4" />
                     {blog.category}
                   </div>
-                  <CardTitle className="text-xl font-bold mb-2">{blog.title}</CardTitle>
+                  <CardTitle className="text-xl font-bold mb-2">
+                    {blog.title}
+                  </CardTitle>
                   <CardDescription className="text-gray-600 mb-4">
                     {blog.description}
                   </CardDescription>
@@ -102,7 +118,9 @@ export function BlogSection() {
                     variant="ghost"
                     className="w-full text-[#08AFF1] hover:text-[#AACF45] hover:bg-transparent transition-colors duration-300"
                   >
-                    <a href={blog.link} target="blank">Read More</a>
+                    <a href={blog.link} target="blank">
+                      Read More
+                    </a>
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </CardFooter>
@@ -128,6 +146,5 @@ export function BlogSection() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
-
