@@ -16,13 +16,14 @@ export function Navbar() {
           <div className="flex-shrink-0 flex items-center">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/website logo.jpg"
               alt="Aadyanvi Wealth"
-              width={180}
-              height={40}
-              className="h-10 w-auto cursor-pointer"
+              width={180} 
+              height={50} // Adjust to maintain a proper aspect ratio
+              className="h-13.5 w-auto cursor-pointer ml-0"
             />
-        </Link>
+          </Link>
+
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/features" className="text-gray-700 hover:text-[#AACF45] transition-colors">

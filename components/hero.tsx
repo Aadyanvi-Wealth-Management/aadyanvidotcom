@@ -1,11 +1,12 @@
+
 "use client"
 
 import { motion } from "framer-motion"
-import { TrendingUp, BarChart2, PieChart } from 'lucide-react'
+import { Users, TrendingUp, BarChart3, PieChart,DollarSign, LineChart, Layers } from 'lucide-react'
 
 export function Hero() {
   return (
-    <div className="relative pt-32 pb-16 sm:pt-40 sm:pb-24 lg:pb-32 overflow-hidden bg-gray-200">
+    <div className="relative pt-32 pb-16 sm:pt-40 sm:pb-24 lg:pb-32 overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <motion.div 
@@ -15,11 +16,16 @@ export function Hero() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-              <span className="block">Transform Your</span>
-              <span className="block text-[#08AFF1]">Financial Future</span>
+              <span className="block">Strategic Investments</span>
+              <span className="block text-[#08AFF1]">Superior Returns</span>
             </h1>
+            {/* <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
+              <span className="block">Strategic <span className="text-[#08AFF1]">Investments</span></span>
+              <span className="block text-[#08AFF1]">Superior Returns</span>
+            </h1>
+ */}
             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-              Expert wealth management solutions tailored to your goals. Join thousands of successful investors who trust Aadyanvi Wealth for their financial journey.
+            Achieving Your Financial Goals with Aadyanvi Wealth Management.
             </p>
             <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left">
               {/*ml-[-43px] */}
@@ -28,7 +34,7 @@ export function Hero() {
               </button>
             </div>
           </motion.div>
-          <motion.div 
+          {/* <motion.div 
             className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center"
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -65,7 +71,88 @@ export function Hero() {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
+          <motion.div
+      className="mt-12 sm:mx-auto lg:mt-0 lg:col-span-6 flex flex-col items-center"
+      initial={{ opacity: 0, x: 20 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5, delay: 0.2 }}
+    >
+      <div className="relative w-full max-w-2xl bg-gradient-to-r from-[#AACF45] to-[#08AFF1] shadow-xl rounded-xl p-8 text-white">
+        <h2 className="text-3xl font-bold text-center mb-6">Our Market Impact</h2>
+        <div className="grid grid-cols-2 gap-8">
+          <div className="flex items-center space-x-4">
+            <BarChart3 className="h-12 w-12 text-white" />
+            <div>
+              <p className="text-xl font-semibold">20M+</p>
+              <p className="text-sm opacity-90">Backtests Done</p>
+            </div>
+          </div>
+          <div className="flex items-center space-x-4">
+            <TrendingUp className="h-12 w-12 text-white" />
+            <div>
+              <p className="text-xl font-semibold">12.5M+</p>
+              <p className="text-sm opacity-90">Trades Taken</p>
+            </div>
+          </div>
+          <div className="flex items-center space-x-4">
+            <Users className="h-12 w-12 text-white" />
+            <div>
+              <p className="text-xl font-semibold">13,000+</p>
+              <p className="text-sm opacity-90">Traders</p>
+            </div>
+          </div>
+          <div className="flex items-center space-x-4">
+            <Layers className="h-12 w-12 text-white" />
+            <div>
+              <p className="text-xl font-semibold">10,000+</p>
+              <p className="text-sm opacity-90">Community Members</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </motion.div>
+          {/* Finance Feature Box
+          <motion.div
+            className="mt-12 sm:mx-auto lg:mt-0 lg:col-span-6 flex flex-col items-center"
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <div className="relative w-full max-w-lg bg-white shadow-xl rounded-lg p-6 ">
+              <h2 className="text-xl font-semibold text-gray-900 text-center mb-4">Market Insights</h2>
+              <div className="grid grid-cols-2 gap-6">
+                <div className="flex items-center space-x-4">
+                  <TrendingUp className="h-10 w-10 text-[#08AFF1]" />
+                  <div>
+                    <p className="text-sm text-gray-500">Portfolio Growth</p>
+                    <p className="text-lg font-bold text-gray-900">+12.5% Q1</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <DollarSign className="h-10 w-10 text-[#AACF45]" />
+                  <div>
+                    <p className="text-sm text-gray-500">Investment Returns</p>
+                    <p className="text-lg font-bold text-gray-900">15.3% Annual</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <LineChart className="h-10 w-10 text-gray-700" />
+                  <div>
+                    <p className="text-sm text-gray-500">Market Trends</p>
+                    <p className="text-lg font-bold text-gray-900">Optimized</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <PieChart className="h-10 w-10 text-[#08AFF1]" />
+                  <div>
+                    <p className="text-sm text-gray-500">Diversification</p>
+                    <p className="text-lg font-bold text-gray-900">Balanced</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div> */}
         </div>
       </div>
     </div>
